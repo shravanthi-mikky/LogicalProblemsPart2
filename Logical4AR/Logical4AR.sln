@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logical4AR", "Logical4AR.csproj", "{70B5F621-F7FA-484E-BC5D-E93FEAFF71AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70B5F621-F7FA-484E-BC5D-E93FEAFF71AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70B5F621-F7FA-484E-BC5D-E93FEAFF71AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70B5F621-F7FA-484E-BC5D-E93FEAFF71AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B5F621-F7FA-484E-BC5D-E93FEAFF71AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F91326F-8490-4C7B-885D-233B34CC314B}
+	EndGlobalSection
+EndGlobal
