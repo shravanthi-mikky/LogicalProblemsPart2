@@ -10,7 +10,7 @@ namespace Logical4AR
             Console.WriteLine("Hello World!");
             while (true)
             {
-                Console.WriteLine("Enter the option to perform the operation \n1) Pair Intersection \n2) Vending Machine \n3) Picking Squares \n4) Possible Digits");
+                Console.WriteLine("Enter the option to perform the operation \n1) Pair Intersection \n2) Vending Machine \n3) Picking Squares \n4) Possible Digits \n5) Permutation of string");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -33,6 +33,11 @@ namespace Logical4AR
                         int N = 6;
                         int sumN = 5;
                         PossibleNDigitValues.Digits(N, sumN);
+                        break;
+                    case 5:
+                        string str = "XYZ";
+                        char[] charArry = str.ToCharArray();
+                        PermutationOfString.Permute(charArry, 0, 2);
                         break;
 
                 }
